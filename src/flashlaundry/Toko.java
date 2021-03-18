@@ -9,11 +9,11 @@ package flashlaundry;
  *
  * @author Lovanto
  */
-public class tabelToko {
+public class Toko {
     private String idToko, namaToko, deskripsiToko, alamatToko;
     private int totalDisukai, totalJasa;
 
-    public tabelToko(String idToko, String namaToko, String deskripsiToko, String alamatToko, int totalDisukai, int totalJasa) {
+    public Toko(String idToko, String namaToko, String deskripsiToko, String alamatToko, int totalDisukai, int totalJasa) {
         this.idToko = idToko;
         this.namaToko = namaToko;
         this.deskripsiToko = deskripsiToko;
